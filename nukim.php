@@ -1,27 +1,37 @@
-
-<style>
-    form { 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body { 
         font-size: 16pt;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        background-color: Cornsilk;   
+
+        background-color: Cornsilk; 
+
         border: 10px solid Orange;
         border-radius: 15px;
         border-style: groove;
+
         padding-right: 30px;
         padding-left: 80px;
         padding-top: 16px;
-        margin: 10px;
-        line-height: 40px;
-        
 
+        margin: 10px;
+
+        line-height: 40px;
    }
 </style>
+    <title>2020高大資管營報名表</title>
+</head>
+<body>
 <form action="nukim-submit.php" method="POST">
+
 <h2><center>2020高大資管營報名表</center></h2>
 <ol>
 <li>中文姓名 : <input type="text" name="username" required></br></li>
-
 <li>性別:
 生理男<input type="radio" name="gender" value="F">
 生理女<input type="radio" name="gender" value="M"></br></li>
@@ -92,5 +102,6 @@
 </textarea></br>
 
 <input type="reset"><input type="submit"></br>
-
 </form>   
+</body>
+</html>
